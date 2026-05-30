@@ -22,8 +22,7 @@
 | 📦 **Barcode Serialization** | Manufacturing Traceability | Unit → Case → Pallet serialization, recall analysis, offline edge support |
 | 🛡 **AuthentiScan** | Anti‑Counterfeit | Secure serial generation, clone detection, consumer mobile verification |
 | 🚛 **FleetFlow** | Logistics Execution (SAP‑style) | Route planning, dispatch, shipment tracking, POD, analytics — aligned to SAP module structure |
-| 🏦 **BankDB** | Banking Platform | Domain‑driven database design, stored procedures, API layer, CI/CD |
-| 💳 **Thrift Banking UI** | Teller Operations | Deposits, withdrawals, customer onboarding, till balancing, audit trails |
+
 
 ---
 
@@ -108,18 +107,3 @@ A product authenticity ecosystem that helps manufacturers combat counterfeiting 
 
 ---
 
-## 🚛 FleetFlow  
-### Logistics Operations Management (LOM) Platform
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![OSRM](https://img.shields.io/badge/OSRM-000000?style=flat-square&logo=openstreetmap&logoColor=white)
-
-**Master Data → Planning → Execution → Confirmation → Analytics**.
-
-**Quick start**
-
-```powershell
-cd eta_platform
-.\run_fleetflow.ps1
