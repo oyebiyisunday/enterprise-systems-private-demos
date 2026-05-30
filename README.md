@@ -21,7 +21,7 @@
 | 🏭 **CoreERP** | Procurement & Supply Chain | Procure‑to‑pay, RFQ, purchase orders, inventory, goods receipt, finance |
 | 📦 **Barcode Serialization** | Manufacturing Traceability | Unit → Case → Pallet serialization, recall analysis, offline edge support |
 | 🛡 **AuthentiScan** | Anti‑Counterfeit | Secure serial generation, clone detection, consumer mobile verification |
-| 🚛 **FleetFlow** | Logistics Execution (SAP‑style) | Route planning, dispatch, shipment tracking, POD, analytics — aligned to SAP module structure |
+| 🚛 **FleetFlow** | Logistics Operations System | Route planning, dispatch, shipment tracking, POD, analytics — aligned to SAP module structure |
 
 
 ---
