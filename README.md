@@ -1,134 +1,125 @@
-Private repositories — available upon request
-Willing to work through demos, architecture tours, stack Q&A, and qualified read-only access.
+<!-- PROJECT HEADER -->
+<div align="center">
+  <h1>🔒 Enterprise Systems Portfolio</h1>
+  <h3>Production‑Grade Software Across Commerce, Supply Chain, Manufacturing, Logistics & Banking</h3>
+  
+  ![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+  ![Availability](https://img.shields.io/badge/demo-available-blue?style=flat-square)
+  ![Architecture](https://img.shields.io/badge/architecture-enterprise-8A2BE2?style=flat-square)
+  
+  <p><em>Private repositories showcasing enterprise software architecture, business workflows, and operational platforms built for real‑world use cases.</em></p>
+  <p>Available for demonstrations, architecture walkthroughs, and technical discussions.</p>
+</div>
 
-1. CoreBox — flagship commerce & last-mile platform
-One backend · four surfaces · checkout to proof of delivery
+---
 
-Surface	Stack
-API
-Node 20, TypeScript, Express, PostgreSQL
-Merchant console
-Next.js PWA
-Customer app
-Expo (pickup, send, receive, orders)
-Driver app
-Expo (dispatch, navigation, safety, POD)
-Commerce: Auth (signup → reset), store onboarding + admin review, catalog, cart, Stripe Payment Intents + webhooks, inventory, care-word alerts, telemetry taxonomy, secure uploads.
+## 📊 Portfolio Snapshot
 
-Digital addressing: GPS → short code → resolve; reverse geocode (Google / Mapbox / Nominatim); privacy modes (public, delivery_only, restricted); country-adaptive policy; deep links to Google Maps, Waze, Apple Maps, OSRM.
+| System | Domain | Core Capabilities |
+|--------|--------|-------------------|
+| 🚚 **CoreBox** | Commerce & Last‑Mile Delivery | Multi‑surface commerce, Stripe payments, driver dispatch, proof‑of‑delivery |
+| 🏭 **CoreERP** | Procurement & Supply Chain | Procure‑to‑pay, RFQ, purchase orders, inventory, goods receipt, finance |
+| 📦 **Barcode Serialization** | Manufacturing Traceability | Unit → Case → Pallet serialization, recall analysis, offline edge support |
+| 🛡 **AuthentiScan** | Anti‑Counterfeit | Secure serial generation, clone detection, consumer mobile verification |
+| 🚛 **FleetFlow** | Logistics Execution (SAP‑style) | Route planning, dispatch, shipment tracking, POD, analytics — aligned to SAP module structure |
+| 🏦 **BankDB** | Banking Platform | Domain‑driven database design, stored procedures, API layer, CI/CD |
+| 💳 **Thrift Banking UI** | Teller Operations | Deposits, withdrawals, customer onboarding, till balancing, audit trails |
 
-Driver safety pack: Proof-of-arrival, mandatory handoff confirmation, unsafe-location feedback, offline retry queue, POD capture, cross-platform handoff (iOS + Android).
+---
 
-Tools: Docker Postgres, Stripe, Supabase (optional), Helmet/CORS/rate-limit, Zod, Multer, EAS, Railway/Nixpacks/Vercel, go-live smoke tests.
+## 🚚 CoreBox  
+### Commerce + Last‑Mile Delivery Platform
 
-Docs: Deployment env matrix, deploy groups, analytics taxonomy, country-adaptive ruleset.
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
 
-Brag: Multi-surface monorepo with production security (JWT + onboarding secrets, privacy-aware locations), payment-ready Stripe flow, last-mile ops built in—not bolted on.
+A multi‑surface commerce ecosystem that connects merchants, customers, and drivers through an end‑to‑end flow—from merchant onboarding and payment processing to delivery execution and customer fulfillment.
 
-2. CoreERP — procurement & logistics ERP (MIT)
-Streamlit workspace for the full procure-to-pay and logistics office
+| Commerce | Delivery Operations |
+|----------|---------------------|
+| Merchant onboarding & catalogs | Driver dispatch & route execution |
+| Inventory management | Proof‑of‑arrival & proof‑of‑delivery |
+| Stripe payment integration | Driver safety & offline delivery support |
+| Customer ordering & store management | Real‑time status tracking |
 
-12 modules: Dashboard KPIs · Materials master · Suppliers · Requisitions · RFQ · Purchase orders · Shipments/customs · Inventory/GRN · MRP/forecast · Finance/costs · Trade documents (COA, MSDS, B/L) · Approval inbox · Reports/analytics · User admin.
+---
 
-5 roles with real workflow: System Admin · Requester · Procurement Manager · Finance Manager · Plant Manager — role on account (no shared role switcher), audit log on sign-in and approvals.
+## 🏭 CoreERP  
+### Procurement & Supply Chain ERP
 
-Stack: Python 3.10+, Streamlit, SQLAlchemy, PostgreSQL/SQLite, Pandas, Plotly, OpenPyXL, bcrypt, Docker Compose.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-Ops: 8 doc guides, cloud deploy (Railway, Azure, AWS, VM), validate.py pre-release gate.
+A complete procure‑to‑pay platform that streamlines operational procurement, inventory management, logistics coordination, approval workflows, and financial visibility.
 
-Brag: Full PR → PO → ship → GRN → payment with approvals; trade doc center; MIT; Docker one-command deploy.
+| Procurement | Operations |
+|-------------|------------|
+| Supplier & requisition management | Inventory control & goods receipt |
+| RFQ & purchase order workflows | Shipment tracking & customs workflows |
+| Multi‑level approvals & cost controls | Trade documentation & analytics |
 
-3. Barcode Serialization — manufacturing traceability (.NET 8)
-System of record for unit identity, movement, and recall
+---
 
-Answers in minutes: What unit? Where made/shipped? What's in the case/pallet? What's in the recall?
+## 📦 Barcode Serialization  
+### Manufacturing Traceability Platform
 
-Architecture: Api · Application · Domain (GS1) · Infrastructure (EF Core) · Edge worker (offline plant line + sync).
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
-API: Products, batches, serials (unit/case/pallet), aggregation, scan events, shipments, trace by batch/unit/pallet/shipment, label data, AuthentiScan bridge, scan integrity.
+A traceability solution that follows products from production through shipment, enabling rapid recall investigation and end‑to‑end supply‑chain visibility.
 
-Enterprise: API-key RBAC (Admin/Operator/Integration), RabbitMQ or in-process queue, PostgreSQL + migrations, audit logs, unit + integration tests, Swagger.
+| Traceability | Enterprise Features |
+|--------------|---------------------|
+| Unit/Case/Pallet serialization | Audit logging & role‑based access |
+| Batch tracking & aggregation | Factory edge support & offline sync |
+| Shipment visibility & recall analysis | API integrations & integration tests |
 
-Brag: Deployable traceability—not slides; edge-ready factories; recall scoping via REST; pairs with AuthentiScan for consumer trust.
+---
 
-4. AuthentiScan — anti-counterfeit (3 surfaces)
-Surface	Stack
-API
-ASP.NET Core 8, EF Core
-Manufacturer portal
-React + Vite + TypeScript
-Consumer app
-Flutter + mobile_scanner
-Flows: Generate-and-print signed serials (ZPL) · Factory first-scan · Consumer verify · Dashboard + clone alerts.
+## 🛡 AuthentiScan  
+### Anti‑Counterfeit Verification Platform
 
-6 verification statuses: AUTHENTIC · NOT_FOUND · CLONED · EXPIRED · NOT_FACTORY_SCANNED · SUSPICIOUS.
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
-Integrations: Auth0 (prod portal), Zebra TCP printer gateway, Swagger, demo seed endpoint.
+A product authenticity ecosystem that helps manufacturers combat counterfeiting while empowering consumers to instantly verify genuine products via mobile scanning.
 
-Brag: Factory-to-consumer anti-counterfeit; crypto-signed serials; clone detection dashboard; wired to Serialization as authoritative source.
+| Protection | Verification |
+|------------|--------------|
+| Secure serial generation & label printing | Consumer mobile verification |
+| Clone detection & fraud analytics | Real‑time authenticity checks |
+| Manufacturer portal & production workflows | Verification API & trust layer |
 
-5. FleetFlow — SAP-style logistics execution
-Master Data → Planning → Execution → Confirmation → Analytics
+---
 
-12 Streamlit apps: Fleet · Drivers · Transport demands · Route planning · Dispatch monitor · Shipment tracking · POD · Operational reports · Exception alerts · Recommendations · Decision support · Data import.
+## 🚛 FleetFlow  
+### Logistics Operations Management (LOM) Platform
 
-LE chain: Create loads → plan/optimize stops → assign driver → release to dispatch → execute → confirm POD.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![OSRM](https://img.shields.io/badge/OSRM-000000?style=flat-square&logo=openstreetmap&logoColor=white)
 
-Stack: Streamlit, DuckDB, optional OSRM road routing, ETA engine, rules analytics.
+**Master Data → Planning → Execution → Confirmation → Analytics**.
 
-Brag: SAP LE mental model for enterprise audiences; optional real-road routing; analytics beyond basic tracking.
+**Quick start**
 
-6. Banking domain data model (BankDB)
-Design deliverables + runnable SQL Server implementation + CI
-
-Deliverables: UML class diagram · Chen ER · Physical design · Data dictionary (Excel) · Design report (Word) · Deployment diagram.
-
-Implementation: Migrations 000–006 · Stored procedures · Triggers · Automated regression tests · GitHub Actions on SQL Server 2022 · PowerShell Deploy/RunTests/Invoke-LocalCI · OpenAPI 3 · ASP.NET Core 8 API over procedures · Security roles & masking · Ops runbooks.
-
-Domain: Customers, accounts, deposits/withdrawals/transfers, address audit log, transaction comments, reporting procedures.
-
-Brag: Diagrams + working T-SQL + CI in one package; business logic in DB; OpenAPI without bypassing procedures.
-
-7. Thrift banking UI + API
-Full-stack teller demo — React + Express + SQL Server
-
-Two desks: Teller workstation (sign-on, verify account, post, till, statements) · Account opening desk (customers + accounts only).
-
-Features: Till sessions · Posting audit · Credit cards with limits · Debt-aware balances · Session/operator audit log · Customer statements · Demo mode (no SQL) or live API mode.
-
-SQL: Triggers + usp_PostTransaction · Till migration (OPENJSON) · Credit card borrowing rules.
-
-Brag: Real teller UX with audit trail; dual-station separation; works offline in demo mode for quick walkthroughs.
-
-8. CoreList — marketplace listing (Expo)
-Split from CoreBox Customer (delivery-only) for clean architecture.
-
-Routes: Landing grid · Store search · Catalog · Stripe checkout · Merchant signup.
-
-Uses CoreBox API: /api/catalog/*, cart, checkout — reference copies for future microservice split.
-
-Brag: Multi-app pattern on one API; marketplace UX isolated from logistics UX.
-
-9. CoreBox Store Console — merchant PWA (Next.js)
-Real-time partner dashboard: KPI hero, filters, paginated orders, status pills, dynamic store identity from API.
-
-Contract-first API: Profile · Overview KPIs · Orders list · Status PATCH — documented in BACKEND-CONTRACT.md.
-
-Brag: Production merchant-console patterns; PWA; never hardcoded store identity.
-
-Ecosystem pitch (one paragraph)
-CoreStack spans commerce (CoreBox, CoreList, Store Console), procurement (CoreERP), fleet execution (FleetFlow), manufacturing traceability (Serialization), consumer trust (AuthentiScan), and banking depth (BankDB + Thrift UI)—with 5 public GitHub portfolios for specs and analytics, and 9 private production builds available for walkthrough on request. 🔒 **Private repos — available upon request**
-
-| Build | Highlights |
-|-------|------------|
-| **CoreBox** | 4-surface commerce + last-mile (API, web, 2 mobile apps, Stripe, digital addressing, driver safety) |
-| **CoreERP** | MIT procurement ERP — PR/PO, MRP, GRN, approvals, trade docs, Docker |
-| **Barcode Serialization** | .NET 8 traceability — serials, aggregation, recall, edge worker, RabbitMQ |
-| **AuthentiScan** | Anti-counterfeit — .NET + React + Flutter, clone detection |
-| **FleetFlow** | SAP LE-style fleet ops — plan, dispatch, POD, OSRM, analytics |
-| **BankDB** | SQL Server banking — migrations, CI, OpenAPI, design deliverables |
-| **Thrift UI** | Teller + account-opening — React, Express, SQL Server |
-| **CoreList** | Expo marketplace listings + Stripe |
-| **Store Console** | Next.js merchant PWA, contract-first API |
-
-📬 Happy to demo any of these — [request walkthrough](https://www.corestacktechnologies.com/book-call)
+```powershell
+cd eta_platform
+.\run_fleetflow.ps1
