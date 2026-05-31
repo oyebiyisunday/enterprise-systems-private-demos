@@ -194,7 +194,7 @@ Excel 2016+ workbook for HR and delivery reporting on a fixed roster of **3,499 
 
 **Skills demonstrated:** Advanced formulas (INDEX/MATCH, SUMPRODUCT, COUNTIFS), PivotTables, Excel compatibility constraints (no dynamic arrays), workforce planning and cost modelling.
 
-[Repository](https://github.com/oyebiyisunday/workforce-analytics-excel) | [Download workbook](https://github.com/oyebiyisunday/workforce-analytics-excel/releases)
+[Repository](https://github.com/oyebiyisunday/workforce-analytics-excel) | [Download workbook](https://github.com/oyebiyisunday/workforce-analytics-excel.xlsx)
 
 ---
 
