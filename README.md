@@ -188,13 +188,13 @@ Logical and physical data model for **EMMA site operations**: assets, staffing, 
 
 ## 👥 Workforce Analytics Workbook (Excel)
 
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://github.com/oyebiyisunday/workforce-analytics-excel)
+[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://github.com/oyebiyisunday/excel-workforce-analytics)
 
 Excel 2016+ workbook for HR and delivery reporting on a fixed roster of **3,499 employees**. Eight task sheets cover validation, lookups, headcount/salary summaries, pivot analysis, period staffing, location KPIs, and a two‑year project P&L.
 
 **Skills demonstrated:** Advanced formulas (INDEX/MATCH, SUMPRODUCT, COUNTIFS), PivotTables, Excel compatibility constraints (no dynamic arrays), workforce planning and cost modelling.
 
-[Repository](https://github.com/oyebiyisunday/workforce-analytics-excel) | [Download workbook](https://github.com/oyebiyisunday/workforce-analytics-excel.xlsx)
+[Repository](https://github.com/oyebiyisunday/excel-workforce-analytics) | [Download workbook](https://github.com/oyebiyisunday/excel-workforce-analytics/raw/main/workforce-analytics-excel.xlsx)
 
 ---
 
