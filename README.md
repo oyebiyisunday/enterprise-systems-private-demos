@@ -7,9 +7,28 @@
   ![Demo](https://img.shields.io/badge/demo-available-blue?style=flat-square)
   ![Architecture](https://img.shields.io/badge/architecture-enterprise-8A2BE2?style=flat-square)
 
-  <p><em>Collection of private repositories demonstrating enterprise software architecture, operational platforms, and business workflows built for real-world use cases.</em></p>
-  <p>Available for demonstrations, architecture walkthroughs, and technical discussions.</p>
+  <p><em>Curated collection of private systems and public analytical projects demonstrating production-ready architecture, operational platforms, and enterprise workflows.</em></p>
+  <p>Private systems are available for controlled demonstrations and architecture reviews.</p>
 </div>
+
+---
+
+## One-line summary
+
+Enterprise-grade systems and supporting analytical projects covering commerce, supply chain, manufacturing traceability, anti-counterfeit verification, and logistics operations.
+
+---
+
+## Table of contents
+
+- [Portfolio at a glance](#portfolio-at-a-glance)
+- [CoreBox — Commerce & Last‑Mile Delivery](#corebox--commerce--last‑mile-delivery)
+- [CoreERP — Procurement & Supply Chain ERP](#corerp--procurement--supply-chain-erp)
+- [Barcode Serialization — Manufacturing Traceability](#barcode-serialization--manufacturing-traceability)
+- [AuthentiScan — Anti‑Counterfeit Verification](#authentiscan--anti‑counterfeit-verification)
+- [FleetFlow — Logistics Operations System](#fleetflow--logistics-operations-system)
+- [Public portfolio and analytical projects](#public-portfolio-and-analytical-projects)
+- [Get in touch](#get-in-touch)
 
 ---
 
@@ -111,6 +130,6 @@ Refer to each repository for detailed deliverables and downloads where available
 
 ## Get in touch
 
-For demonstrations, architecture walkthroughs, or technical discussions, please contact me via my GitHub profile: https://github.com/oyebiyisunday
+To request a controlled demonstration, architecture walkthrough, or technical discussion, please open an issue in this repository or contact me via my GitHub profile: https://github.com/oyebiyisunday
 
 Portfolio curated by Sunday Oyebiyi.
