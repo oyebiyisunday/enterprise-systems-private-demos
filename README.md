@@ -1,222 +1,116 @@
 <!-- PROJECT HEADER -->
 <div align="center">
-  <h1>🔒 Enterprise Systems Portfolio</h1>
-  <h3>Production‑Grade Software Across Commerce, Supply Chain, Manufacturing & Logistics</h3>
-  
+  <h1>Enterprise Systems Portfolio</h1>
+  <h3>Production-grade software across Commerce, Supply Chain, Manufacturing & Logistics</h3>
+
   ![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
   ![Demo](https://img.shields.io/badge/demo-available-blue?style=flat-square)
   ![Architecture](https://img.shields.io/badge/architecture-enterprise-8A2BE2?style=flat-square)
-  
-  <p><em>Private repositories showcasing enterprise software architecture, business workflows, and operational platforms built for real‑world use cases.</em></p>
+
+  <p><em>Collection of private repositories demonstrating enterprise software architecture, operational platforms, and business workflows built for real-world use cases.</em></p>
   <p>Available for demonstrations, architecture walkthroughs, and technical discussions.</p>
 </div>
 
 ---
 
-## 📊 Portfolio Snapshot
+## Portfolio at a glance
 
-| System | Domain | Core Capabilities |
+This repository indexes private enterprise systems and selected public projects that demonstrate production-ready architecture, operational considerations, and analytical work required for large-scale deployments.
+
+| System | Domain | Core capabilities |
 |--------|--------|-------------------|
-| 🚚 **CoreBox** | Commerce & Last‑Mile Delivery | Multi‑surface commerce, Stripe payments, driver dispatch, proof‑of‑delivery |
-| 🏭 **CoreERP** | Procurement & Supply Chain | Procure‑to‑pay, RFQ, purchase orders, inventory, goods receipt, finance |
-| 📦 **Barcode Serialization** | Manufacturing Traceability | Unit → Case → Pallet serialization, recall analysis, offline edge support |
-| 🛡 **AuthentiScan** | Anti‑Counterfeit | Secure serial generation, clone detection, consumer mobile verification |
-| 🚛 **FleetFlow** | Logistics Operations System | Route planning, dispatch, shipment tracking, POD, analytics |
+| CoreBox | Commerce & Last-mile Delivery | Multi-surface commerce, payment processing, driver dispatch, proof-of-delivery |
+| CoreERP | Procurement & Supply Chain | Procure-to-pay, RFQ, purchase orders, inventory, goods receipt, finance |
+| Barcode Serialization | Manufacturing Traceability | Unit → Case → Pallet serialization, recall analysis, edge support |
+| AuthentiScan | Anti-counterfeit Verification | Secure serial generation, clone detection, consumer verification |
+| FleetFlow | Logistics Operations | Route planning, dispatch, shipment tracking, POD, analytics |
 
 ---
 
-## 🚚 CoreBox  
-### Commerce + Last‑Mile Delivery Platform
+## CoreBox — Commerce & Last‑Mile Delivery
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
+Technologies: Node.js, TypeScript, Express, PostgreSQL, Next.js, Expo, Stripe
 
-A multi‑surface commerce ecosystem that connects merchants, customers, and drivers through an end‑to‑end flow—from merchant onboarding and payment processing to delivery execution and customer fulfillment.
+CoreBox is a multi-surface commerce platform that connects merchants, customers, and drivers through an end-to-end flow. It supports merchant onboarding, catalog management, payments, and delivery execution with operational safeguards for offline and mobile clients.
 
-| Commerce | Delivery Operations |
-|----------|---------------------|
-| Merchant onboarding & catalogs | Driver dispatch & route execution |
-| Inventory management | Proof‑of‑arrival & proof‑of‑delivery |
-| Stripe payment integration | Driver safety & offline delivery support |
-| Customer ordering & store management | Real‑time status tracking |
+Key capabilities:
+- Merchant onboarding, catalog and store management
+- Customer ordering and payment integration (Stripe)
+- Inventory and fulfillment orchestration
+- Driver dispatch, route execution, and real-time tracking
+- Proof-of-arrival and proof-of-delivery workflows
+- Offline-first support for mobile delivery clients
 
 ---
 
-## 🏭 CoreERP  
-### Procurement & Supply Chain ERP
+## CoreERP — Procurement & Supply Chain ERP
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+Technologies: Python, Streamlit, SQLAlchemy, PostgreSQL, Pandas, Plotly, Docker
 
-A complete procure‑to‑pay platform that streamlines operational procurement, inventory management, logistics coordination, approval workflows, and financial visibility.
+CoreERP provides a comprehensive procure-to-pay workflow for procurement teams, combining supplier management, RFQ and purchase order processing, inventory control, and multi-level approval workflows.
 
-| Procurement | Operations |
-|-------------|------------|
-| Supplier & requisition management | Inventory control & goods receipt |
-| RFQ & purchase order workflows | Shipment tracking & customs workflows |
-| Multi‑level approvals & cost controls | Trade documentation & analytics |
+Key capabilities:
+- Supplier, requisition and purchase order management
+- RFQ workflows and comparative evaluation
+- Inventory control and goods receipt processing
+- Multi-level approvals, cost controls and finance integration
+- Shipment tracking, documentation and analytics
 
 ---
 
-## 📦 Barcode Serialization  
-### Manufacturing Traceability Platform
+## Barcode Serialization — Manufacturing Traceability
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+Technologies: .NET (ASP.NET Core), Entity Framework Core, PostgreSQL, RabbitMQ
 
-A traceability solution that follows products from production through shipment, enabling rapid recall investigation and end‑to‑end supply‑chain visibility.
+A traceability platform that follows products through serialization and aggregation, enabling recall analysis, auditability, and edge-enabled factory scenarios.
 
-| Traceability | Enterprise Features |
-|--------------|---------------------|
-| Unit/Case/Pallet serialization | Audit logging & role‑based access |
-| Batch tracking & aggregation | Factory edge support & offline sync |
-| Shipment visibility & recall analysis | API integrations & integration tests |
+Key capabilities:
+- Unit → Case → Pallet serialization and aggregation
+- Batch tracking, audit logs and role-based access control
+- Recall analysis, shipment visibility and reporting
+- Edge device support for intermittent connectivity and sync
+- API-first design and integration test coverage
 
 ---
 
-## 🛡 AuthentiScan  
-### Anti‑Counterfeit Verification Platform
+## AuthentiScan — Anti‑Counterfeit Verification
 
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+Technologies: ASP.NET Core, EF Core, React, TypeScript, Flutter
 
-A product authenticity ecosystem that helps manufacturers combat counterfeiting while empowering consumers to instantly verify genuine products via mobile scanning.
+AuthentiScan is a product-authenticity platform enabling manufacturers to issue secure serials and consumers to verify products using mobile scanning.
 
-| Protection | Verification |
-|------------|--------------|
-| Secure serial generation & label printing | Consumer mobile verification |
-| Clone detection & fraud analytics | Real‑time authenticity checks |
-| Manufacturer portal & production workflows | Verification API & trust layer |
+Key capabilities:
+- Secure serial generation and label management
+- Clone detection, fraud analytics and risk scoring
+- Consumer mobile verification and verification APIs
+- Manufacturer portal and production workflows
 
 ---
 
-## 🚛 FleetFlow  
-### Logistics Operations System
+## FleetFlow — Logistics Operations System
 
-A comprehensive logistics operations platform aligned with SAP module structure, covering route planning, dispatch, shipment tracking, proof‑of‑delivery, and operational analytics.
+FleetFlow is a logistics operations platform aligned with enterprise planning and execution modules. It covers route planning, dispatch, shipment lifecycle tracking, proof-of-delivery and operational analytics.
 
-*(Private repository – available for demonstration upon request.)*
-
----
-
-# 📚 Public Portfolio & Analytical Projects
-
-*All public repositories are open for review. Each demonstrates a different facet of enterprise analysis, data modeling, and requirements engineering.*
+(Note: FleetFlow and other systems in this repository are private and available for demonstration upon request.)
 
 ---
 
-## 📐 SDLC & Agile Requirements Engineering Portfolio
+## Public portfolio and analytical projects
 
-[![Artifacts](https://img.shields.io/badge/Artifacts-PDF%2FExcel-blue?style=flat-square)](https://github.com/oyebiyisunday/sdlc-agile-requirements)
+These public repositories illustrate analytical techniques, data modelling, and SDLC artifacts used in enterprise engagements.
 
-Personal portfolio demonstrating end‑to‑end requirements engineering for **Titans InstaFood**, a sample B2C food ordering platform. Version 4.0.
+- SDLC & Agile Requirements (sdlc-agile-requirements): Specification artifacts, SRS, RTM, SDD and product backlog artifacts. [Repository](https://github.com/oyebiyisunday/sdlc-agile-requirements)
+- Logistics Ops Analytics (logistics-ops-analytics): Simulated operational dataset with KPI dashboards and dispatch analytics. [Repository](https://github.com/oyebiyisunday/logistics-ops-analytics)
+- Robotic Data Model (Robotic-data-model): Logical and physical data model for site operations with ERDs and PostgreSQL DDL. [Repository](https://github.com/oyebiyisunday/Robotic-data-model)
+- Workforce Analytics Workbook (excel-workforce-analytics): Excel analytics workbook for headcount, costing and staffing analysis. [Repository](https://github.com/oyebiyisunday/excel-workforce-analytics)
+- Product Costing & Vendor Sourcing (Product-Costing-Vendor-Sourcing): Multi-vendor BOM costing workbook with Python verification scripts. [Repository](https://github.com/oyebiyisunday/Product-Costing-Vendor-Sourcing)
 
-> **Specification artifacts only** – no source code.
-
-**Demonstrates:**
-- Business and delivery scoping across SDLC initiation and planning
-- Structured functional and non‑functional requirements specification (SRS)
-- End‑to‑end traceability from requirements to stories and system test cases (RTM)
-- Implementation‑ready design handoff through architecture, data, and API contracts (SDD)
-- Prioritized product backlog and Agile artifacts
-
-**📂 Quick navigation:**
-1. `INDEX.md` – Complete file map and artifact descriptions
-2. `SDLC/03-Requirements-Analysis/SRS-Software-Requirements-Specification-v4.0.pdf`
-3. `SDLC/03-Requirements-Analysis/RTM-Requirements-Traceability-Matrix-v4.0.xlsx`
-4. `SDLC/04-Design/SDD-System-Design-and-Architecture-v4.0.pdf`
-5. `Agile/02-Product-Backlog/PBL-Product-Backlog-Master-v4.0.xlsx`
-
-[Repository](https://github.com/oyebiyisunday/sdlc-agile-requirements)
+Refer to each repository for detailed deliverables and downloads where available.
 
 ---
 
-## 📊 Logistics Ops Analytics
+## Get in touch
 
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://github.com/oyebiyisunday/logistics-ops-analytics)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/oyebiyisunday/logistics-ops-analytics)
+For demonstrations, architecture walkthroughs, or technical discussions, please contact me via my GitHub profile: https://github.com/oyebiyisunday
 
-Production‑style logistics reporting workbook with **10,000 rows of simulated operational data**. Python builds the data; Excel provides KPI dashboards, dispatch boards, carrier scorecards, and intervention tracking.
-
-**What’s inside:**
-- Executive KPI dashboard (on‑time %, exceptions, carrier scorecard)
-- Dispatch board with late‑row highlighting
-- Shipment lifecycle analysis and SLA tracking
-- Intervention log (1,978 exception tickets)
-- Carrier scorecard (weighted 50/30/20)
-- Customer order lookup, inventory alerts, and route performance
-
-**Skills demonstrated:** Advanced Excel (XLOOKUP, SUMIFS, dynamic dashboards), large‑data modeling, Python data pipelines, operational reporting.
-
-[Repository](https://github.com/oyebiyisunday/logistics-ops-analytics) | [Download workbook](https://github.com/oyebiyisunday/logistics-ops-analytics/raw/main/Logistics_Control_Tower.xlsx)
-
----
-
-## 🤖 Robotic Data Model (EMMA)
-
-[![ERD](https://img.shields.io/badge/Model-ERD%20%2F%20UML-purple?style=flat-square)](https://github.com/oyebiyisunday/Robotic-data-model)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/oyebiyisunday/Robotic-data-model)
-
-Logical and physical data model for **EMMA site operations**: assets, staffing, runs, and machine events.
-
-**Deliverables:**
-- Crow’s foot ERD (IE notation)
-- Chen ER diagrams (organization + tasks/events)
-- UML class diagram
-- PostgreSQL DDL (`schema.sql`)
-- Full data dictionary and assumptions write‑up
-
-[Repository](https://github.com/oyebiyisunday/Robotic-data-model) | [View diagrams](https://github.com/oyebiyisunday/Robotic-data-model#readme)
-
----
-
-## 👥 Workforce Analytics Workbook (Excel)
-
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://github.com/oyebiyisunday/excel-workforce-analytics)
-
-Excel 2016+ workbook for HR and delivery reporting on a fixed roster of **3,499 employees**. Eight task sheets cover validation, lookups, headcount/salary summaries, pivot analysis, period staffing, location KPIs, and a two‑year project P&L.
-
-**Skills demonstrated:** Advanced formulas (INDEX/MATCH, SUMPRODUCT, COUNTIFS), PivotTables, Excel compatibility constraints (no dynamic arrays), workforce planning and cost modelling.
-
-[Repository](https://github.com/oyebiyisunday/excel-workforce-analytics) | [Download workbook](https://github.com/oyebiyisunday/excel-workforce-analytics/raw/main/workforce-analytics-excel.xlsx)
-
----
-
-## 💰 Product Costing & Vendor Sourcing
-
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://github.com/oyebiyisunday/Product-Costing-Vendor-Sourcing)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/oyebiyisunday/Product-Costing-Vendor-Sourcing)
-
-Multi‑vendor BOM costing workbook. Choose a vendor per part, pull unit prices from vendor sheets, and scale quantities by a build‑to‑order unit count. Includes Python‑based rebuild/verification pipeline.
-
-**Features:**
-- Automated lookups across vendor price lists
-- Quantity‑scaled total cost per part and assembly
-- Clean input/formula separation
-- CI‑verified Python rebuild scripts
-
-[Repository](https://github.com/oyebiyisunday/Product-Costing-Vendor-Sourcing) | [Download workbook](https://github.com/oyebiyisunday/Product-Costing-Vendor-Sourcing/raw/main/workbook/Product_Costing_Vendor_Sourcing.xlsx)
-
----
-
-## 📬 Get in Touch
-
-Interested in a live demo, architecture deep‑dive, or technical discussion? Reach out to discuss any of the private systems or the methodologies behind the public portfolio projects.
-
-*Portfolio maintained by [Sunday Oyebiyi](https://github.com/oyebiyisunday).*
+Portfolio curated by Sunday Oyebiyi.
